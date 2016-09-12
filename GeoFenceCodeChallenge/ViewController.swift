@@ -48,6 +48,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let location = gestureReconizer.locationInView(map)
         let coordinate = map.convertPoint(location,toCoordinateFromView: map)
         
+        centerMapOnLocation(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude))
+        
         let annotation = MKPointAnnotation()
         annotation.coordinate = coordinate
         map.addAnnotation(annotation)
