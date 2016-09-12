@@ -14,6 +14,8 @@
 		C1F4741A1D832CBE00F2B7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F474181D832CBE00F2B7C3 /* LaunchScreen.storyboard */; };
 		C1F474251D832CBE00F2B7C3 /* GeoFenceCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F474241D832CBE00F2B7C3 /* GeoFenceCodeChallengeTests.swift */; };
 		C1F474301D832CBE00F2B7C3 /* GeoFenceCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4742F1D832CBE00F2B7C3 /* GeoFenceCodeChallengeUITests.swift */; };
+		C1F4743E1D83AFB800F2B7C3 /* Annotaion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F4743D1D83AFB800F2B7C3 /* Annotaion.swift */; };
+		C1F474401D8620F400F2B7C3 /* CTPN 100 Percent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1F4743F1D8620F400F2B7C3 /* CTPN 100 Percent.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C1F4742B1D832CBE00F2B7C3 /* GeoFenceCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoFenceCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F4742F1D832CBE00F2B7C3 /* GeoFenceCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoFenceCodeChallengeUITests.swift; sourceTree = "<group>"; };
 		C1F474311D832CBE00F2B7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F4743D1D83AFB800F2B7C3 /* Annotaion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotaion.swift; sourceTree = "<group>"; };
+		C1F4743F1D8620F400F2B7C3 /* CTPN 100 Percent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CTPN 100 Percent.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C1F474161D832CBE00F2B7C3 /* Assets.xcassets */,
 				C1F474181D832CBE00F2B7C3 /* LaunchScreen.storyboard */,
 				C1F4741B1D832CBE00F2B7C3 /* Info.plist */,
+				C1F4743D1D83AFB800F2B7C3 /* Annotaion.swift */,
+				C1F4743F1D8620F400F2B7C3 /* CTPN 100 Percent.mp3 */,
 			);
 			path = GeoFenceCodeChallenge;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F4741A1D832CBE00F2B7C3 /* LaunchScreen.storyboard in Resources */,
+				C1F474401D8620F400F2B7C3 /* CTPN 100 Percent.mp3 in Resources */,
 				C1F474171D832CBE00F2B7C3 /* Assets.xcassets in Resources */,
 				C1F474151D832CBE00F2B7C3 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F474121D832CBE00F2B7C3 /* ViewController.swift in Sources */,
+				C1F4743E1D83AFB800F2B7C3 /* Annotaion.swift in Sources */,
 				C1F474101D832CBE00F2B7C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
